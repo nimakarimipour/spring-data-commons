@@ -19,8 +19,7 @@ import shutil
 from pathlib import Path
 
 VERSION = '1.3.8-SNAPSHOT'
-MODULE = 'core'
-BENCHMARK = 'alfresco-{}'.format(MODULE)
+BENCHMARK = 'spring-data-commons'
 OUT_DIR = '/tmp/ucr-tainting/{}'.format(BENCHMARK)
 ANNOTATOR_JAR = "{}/.m2/repository/edu/ucr/cs/riple/annotator/annotator-core/{}/annotator-core-{}.jar".format(str(Path.home()), VERSION, VERSION)
 REPO = subprocess.check_output(['git', 'rev-parse', '--show-toplevel']).strip().decode('utf-8')
@@ -37,7 +36,7 @@ def run_annotator():
     commands = []
     commands += ["java", "-jar", ANNOTATOR_JAR]
     commands += ['-d', OUT_DIR]
-    commands += ['-bc', 'cd {} && mvn clean compile -DskipTests -pl {} -am'.format(REPO, MODULE)]
+    commands += ['-bc', 'cd {} && mvn clean compile'.format(REPO)]
     commands += ['-cp', '{}/paths.tsv'.format(OUT_DIR)]
     commands += ['-i', 'edu.ucr.Initializer']
     commands += ['-n', 'edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted']

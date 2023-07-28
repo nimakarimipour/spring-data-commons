@@ -33,6 +33,7 @@ import org.springframework.data.web.SortDefault.SortDefaults;
 import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
+import edu.ucr.cs.riple.taint.ucrtainting.qual.RUntainted;
 
 /**
  * Base class providing methods for handler method argument resolvers to create {@link Sort} instances from request
@@ -424,7 +425,7 @@ public abstract class SortHandlerMethodArgumentResolverSupport {
 		 *
 		 * @param callback block to be executed.
 		 */
-		public void forEachOrder(Consumer<? super Order> callback) {
+		public void forEachOrder(@RUntainted Consumer<? super Order> callback) {
 
 			for (int i = 0; i < lastIndex; i++) {
 				toOrder(elements[i]).ifPresent(callback);

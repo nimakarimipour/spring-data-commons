@@ -439,10 +439,10 @@
 								<arg>-AannotatedPackages=org.springframework.data</arg>
 								<arg>-AenableCustomCheck</arg>
 								<arg>-AenableSerialization</arg>
-								<arg>-AserializationConfigPath=/tmp/ucr-tainting/alfresco-core/taint.xml</arg>
+								<arg>-AserializationConfigPath=/tmp/ucr-tainting/spring-data-commons/taint.xml</arg>
 								<arg>-XDcompilePolicy=simple</arg>
 								<arg>-parameters</arg>
-								<arg>-Xplugin:ErrorProne -XepDisableAllChecks -Xep:AnnotatorScanner:ERROR -XepOpt:AnnotatorScanner:ConfigPath=/tmp/ucr-tainting/alfresco-core/scanner.xml</arg>
+								<arg>-Xplugin:ErrorProne -XepDisableAllChecks -Xep:AnnotatorScanner:ERROR -XepOpt:AnnotatorScanner:ConfigPath=/tmp/ucr-tainting/spring-data-commons/scanner.xml</arg>
 							</compilerArgs>
 						</configuration>
 					</plugin>
