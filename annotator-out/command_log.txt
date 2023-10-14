@@ -6,3 +6,15 @@
 
 2023-10-14T13:00:24.884650:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
 
+2023-10-14T14:20:07.779938:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T14:20:08.573717:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T14:20:29.256203:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T14:20:54.095301:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T14:21:20.620994:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
+
+2023-10-14T14:21:45.960863:cd /home/nima/Developer/taint-benchmarks/spring-data-commons && mvn clean compile -Drat.skip=true -Dcheckstyle.skip
+
