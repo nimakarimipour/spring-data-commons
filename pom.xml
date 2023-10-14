@@ -234,6 +234,7 @@
 			<groupId>org.apache.openwebbeans</groupId>
 			<artifactId>openwebbeans-se</artifactId>
 			<classifier>jakarta</classifier>
+			<version>4.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -241,6 +242,7 @@
 			<groupId>org.apache.openwebbeans</groupId>
 			<artifactId>openwebbeans-spi</artifactId>
 			<classifier>jakarta</classifier>
+			<version>4.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -248,6 +250,7 @@
 			<groupId>org.apache.openwebbeans</groupId>
 			<artifactId>openwebbeans-impl</artifactId>
 			<classifier>jakarta</classifier>
+			<version>4.0.0</version>
 			<scope>test</scope>
 		</dependency>
 
