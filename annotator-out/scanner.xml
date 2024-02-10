@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><scanner><serialization active="false"/><uuid>f4f4f0fa-9b6e-4c08-9bbd-70a40d96707a</uuid><path>/home/nima/Developer/taint-benchmarks/spring-data-commons/annotator-out/0</path><processor><LOMBOK active="true"/></processor><annotations/></scanner>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scanner>
+    <serialization active="true"/>
+    <uuid>f4f4f0fa-9b6e-4c08-9bbd-70a40d96707a</uuid>
+    <path>/Users/nima/Developer/spring-data-commons/annotator-out/0</path>
+    <processor>
+        <LOMBOK active="true"/>
+    </processor>
+    <annotations/>
+</scanner>
